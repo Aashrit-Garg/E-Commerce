@@ -1,3 +1,4 @@
+import 'package:ecommerce/Details/DetailsScreen.dart';
 import 'package:ecommerce/Model/Product.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -23,11 +24,13 @@ class ProductCard extends StatelessWidget {
       child: SizedBox(
         width: getProportionateScreenWidth(width),
         child: GestureDetector(
-          // onTap: () => Navigator.push(
-          //   context,
-          //   MaterialPageRoute(
-          //       builder: (context) => DetailsScreen()),
-          // );
+          onTap: () => Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (context) => DetailsScreen(
+                      product: product,
+                    )),
+          ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

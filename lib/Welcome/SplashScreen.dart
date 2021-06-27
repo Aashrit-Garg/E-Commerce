@@ -7,6 +7,7 @@ import '../size_config.dart';
 import 'SplashContent.dart';
 
 class SplashScreen extends StatefulWidget {
+  static String routeName = "/details";
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
