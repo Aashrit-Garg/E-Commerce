@@ -65,6 +65,8 @@ Double check install instructions for both
      - https://pub.dartlang.org/packages/firebase_auth
    - Firestore Plugin
      -  https://pub.dartlang.org/packages/cloud_firestore
+   - Razorpay Plugin
+     -  https://pub.dev/packages/razorpay
 
 ## Photos
 ![Preview](/1.jpg)
